@@ -10,6 +10,9 @@
     "csv": {
         "max_filesize": 5242880
     },
+    "omnivoreOther": {
+        "max_filesize": 272629760
+    },
     "tm2z": {
         "max_metadata": 61440,
         "max_drawtime": 1000,
