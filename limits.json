@@ -2,7 +2,7 @@
     "mbtiles": {
         "max_tilesize": 512000,
         "max_gridsize": 512000,
-        "totalitems": 30000000
+        "max_totalitems": 30000000
     },
     "tif": {
         "max_filesize": 10737418240
