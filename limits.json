@@ -22,5 +22,10 @@
     },
     "serialtiles": {
         "max_tilesize": 512000
+    },
+    "svg": {
+        "max_filesize": 125000,
+        "max_width": 512,
+        "max_height": 512
     }
 }
