@@ -10,6 +10,9 @@
     "csv": {
         "max_filesize": 10737418240
     },
+    "geojson": {
+        "max_filesize": 10737418240
+    },
     "omnivoreOther": {
         "max_filesize": 10737418240
     },
