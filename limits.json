@@ -1,6 +1,6 @@
 {
     "mbtiles": {
-        "max_filesize": 10737418240,
+        "max_filesize": 26843545600,
         "max_tilesize": 512000,
         "max_gridsize": 512000,
         "max_totalitems": 30000000
@@ -23,7 +23,7 @@
         "avg_imgbytes": 51200
     },
     "serialtiles": {
-        "max_filesize": 10737418240,
+        "max_filesize": 26843545600,
         "max_tilesize": 512000
     },
     "svg": {
