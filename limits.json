@@ -14,6 +14,10 @@
     "geojson": {
         "max_filesize": 1073741824
     },
+    "kml": {
+        "max_filesize": 272629760,
+        "layers": 15
+    },
     "omnivoreOther": {
         "max_filesize": 272629760
     },
