@@ -6,7 +6,7 @@
         "max_totalitems": 30000000
     },
     "tif": {
-        "max_filesize": 10737418240
+        "max_filesize": 35000000000
     },
     "csv": {
         "max_filesize": 1073741824
