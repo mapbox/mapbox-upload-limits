@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/mapbox/mapbox-upload-limits#readme",
   "devDependencies": {
-    "fastlog": "^1.1.0",
     "tape": "^4.9.2"
+  },
+  "dependencies": {
+    "fastlog": "^1.1.0"
   }
 }
