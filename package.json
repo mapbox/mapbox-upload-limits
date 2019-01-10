@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/mapbox/mapbox-upload-limits/issues"
   },
-  "homepage": "https://github.com/mapbox/mapbox-upload-limits#readme"
+  "homepage": "https://github.com/mapbox/mapbox-upload-limits#readme",
+  "devDependencies": {
+    "tape": "^4.9.2"
+  },
+  "dependencies": {
+    "fastlog": "^1.1.0"
+  }
 }
