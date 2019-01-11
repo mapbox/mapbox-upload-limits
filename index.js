@@ -1,5 +1,6 @@
 const fs     = require('fs');
-const limits = JSON.parse(fs.readFileSync('limits.json', 'utf-8'));
+const path   = require('path');
+const limits = JSON.parse(fs.readFileSync(path.join(__dirname, 'limits.json'), 'utf-8'));
 const log    = require('fastlog')('configuration', 'debug');
 
 module.exports = (() => {
