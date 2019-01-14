@@ -1,5 +1,7 @@
 const test = require('tape');
 const log  = require('fastlog')('test');
+const path = require('path');
+const exec = require('child_process').exec;
 
 test('module can be imported', (t) => {
     let limits = require('./');
@@ -29,7 +31,20 @@ test('override limits with environment variables: malformed', (t) => {
     process.env.LIMITS_MBTILES_MAX_FILESIZE = 'abcdef';
     const limits = require('./');
     t.equals(limits.mbtiles.max_filesize, limits._defaults.mbtiles.max_filesize);
+    delete process.env.LIMITS_MBTILES_MAX_FILESIZE;
     t.end();
+});
+
+test('module can be imported', (t) => {
+    exec('npm -s start', {
+        cwd: path.join(__dirname, '/test-data')
+    }, (e, stdout, stderr) => {
+        process.stderr.write(stderr);
+        t.error(e, 'process started');
+        const limits = JSON.parse(stdout);
+        t.ok(Object.keys(limits).length > 0, 'import seems good');
+        t.end();
+    });
 });
 
 const clearFromCache = (t) => {
