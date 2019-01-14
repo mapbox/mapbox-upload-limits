@@ -1,0 +1,14 @@
+{
+  "name": "test-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm -s install > /dev/null 2>&1 && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mapbox-upload-limits": "../"
+  }
+}
