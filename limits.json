@@ -3,7 +3,8 @@
         "max_filesize": 26843545600,
         "max_tilesize": 512000,
         "max_gridsize": 512000,
-        "max_totalitems": 30000000
+        "max_totalitems": 30000000,
+        "max_zoomlevel": 22
     },
     "tif": {
         "max_filesize": 35000000000
