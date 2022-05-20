@@ -1,5 +1,5 @@
 const test = require('tape');
-const log  = require('fastlog')('test');
+const log  = require('@mapbox/fastlog')('test');
 const path = require('path');
 const exec = require('child_process').exec;
 

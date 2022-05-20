@@ -1,7 +1,7 @@
 const fs     = require('fs');
 const path   = require('path');
 const limits = JSON.parse(fs.readFileSync(path.join(__dirname, 'limits.json'), 'utf-8'));
-const log    = require('fastlog')('configuration', 'debug');
+const log    = require('@mapbox/fastlog')('configuration', 'debug');
 
 module.exports = (() => {
     limits._defaults = JSON.parse(JSON.stringify(limits));
