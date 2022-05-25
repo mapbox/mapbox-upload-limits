@@ -1,6 +1,6 @@
 {
   "name": "mapbox-upload-limits",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "limits for the mapbox data upload api",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,6 @@
     "tape": "^4.9.2"
   },
   "dependencies": {
-    "fastlog": "^1.1.0"
+    "@mapbox/fastlog": "^1.3.3"
   }
 }
